@@ -1,6 +1,6 @@
 # 라온 웹사이트 안내봇
 
-생성형 AI API를 호출하지 않는 JavaScript 규칙 기반 챗봇입니다. 라온은 프로젝트용으로 만든 고양이 SVG 아바타입니다. 별도의 공식 캐릭터 원본을 제공받은 이미지가 아니므로, 원본이 있으면 `assets/images/common/raon-chat-avatar.svg`를 교체하거나 flow JSON의 avatar 경로를 변경하면 됩니다.
+생성형 AI API를 호출하지 않는 JavaScript 규칙 기반 챗봇입니다. 라온 아바타는 사용자가 제공한 `온라온_캐릭터시트_원본.png`의 정면 얼굴을 잘라 만든 `assets/images/common/raon-chat-avatar.png`입니다. 이미지 생성 없이 원본의 크림색 털, 호박색 눈과 체크 스카프를 유지했습니다. flow JSON의 avatar 경로로 채팅 버튼과 대화창에 적용하며, 문의 페이지에서도 같은 이미지를 사용합니다.
 
 ## 적용 범위와 사용
 

@@ -3,7 +3,7 @@
   "name": "라온",
   "start": "home",
   "fallback": "fallback",
-  "avatar": "assets/images/common/raon-chat-avatar.svg",
+  "avatar": "assets/images/common/raon-chat-avatar.png",
   "nodes": {
     "home": {"title":"처음 메뉴","keywords":["안녕","시작","처음","홈","메뉴"],"answer":"안녕하세요. 관광 콘텐츠 아카이브를 안내하는 라온입니다. 포트폴리오와 프로젝트 소개, 사이트 이용 방법, 제작·협업 문의를 안내하는 서비스입니다. 궁금한 항목을 선택해 주세요.","buttons":[{"label":"포트폴리오 둘러보기","next":"portfolio"},{"label":"프로젝트 안내","next":"projects"},{"label":"자주 묻는 질문","next":"faq"},{"label":"제작·협업 문의","next":"inquiry"}]},
     "portfolio": {"title":"포트폴리오 둘러보기","keywords":["포트폴리오","어떤 작업","작업물","둘러보기"],"answer":"관광 자원 조사부터 콘텐츠 제작, SNS 운영, 브랜드 기획까지 모은 포트폴리오입니다. 관심 있는 분야를 선택하면 소개와 해당 페이지로 연결되는 메뉴입니다.","buttons":[{"label":"관광 조사 · REPORT","next":"research"},{"label":"카드뉴스·영상 · CONTENTS","next":"contents"},{"label":"SNS 운영","next":"sns"},{"label":"HARO 브랜드","next":"brand"},{"label":"최종 프로젝트","next":"final"}]},

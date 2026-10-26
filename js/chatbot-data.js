@@ -4,7 +4,7 @@ window.RAON_CHATBOT_DATA = {
   "name": "라온",
   "start": "home",
   "fallback": "fallback",
-  "avatar": "assets/images/common/raon-chat-avatar.svg",
+  "avatar": "assets/images/common/raon-chat-avatar.png",
   "nodes": {
     "home": {
       "title": "처음 메뉴",
