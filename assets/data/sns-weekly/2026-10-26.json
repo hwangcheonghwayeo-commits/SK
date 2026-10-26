@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "week_of": "2026-10-26",
+  "collected_window_kst": ["2026-10-26T14:39:00+09:00", "2026-10-26T14:42:00+09:00"],
+  "method": "Aside read-only authenticated owner analytics UI, not official API",
+  "official_api_connected": false,
+  "previous_week_delta": null,
+  "delta_unavailable_reason": "No comparable previous-week snapshot",
+  "instagram": {
+    "account": "miyumio.day",
+    "current_followers": 14,
+    "current_posts": 13,
+    "source_url": "https://www.instagram.com/accounts/insights/?timeframe=7",
+    "report_period": {"label":"recent 7 days excluding today","timezone_label":"Pacific Standard Time, as shown by UI","start":null,"end":null},
+    "period_metrics": {"views":2407,"accounts_viewed":1584,"interactions":101,"likes":null,"comments":null,"shares":null},
+    "country_distribution": null,
+    "missing_reason": "Account-wide likes/comments/shares and geography were not shown in inspected web insights",
+    "posts": [{"url":"https://www.instagram.com/p/DeyaetAnOhv/","insights_url":"https://www.instagram.com/insights/media/4013386677062789231/","label":"10월 22일 불닭 릴스","scope":"post lifetime, no period selector","views":1701,"likes":22,"comments":1,"shares":4}],
+    "post_coverage": "Only one post inspected; do not treat as account total"
+  },
+  "youtube": {
+    "channel_id": "UCGjhGGf-j1kMYtJZJTnNMPA",
+    "current_subscribers": 9,
+    "current_video_count": 4,
+    "source_url": "https://studio.youtube.com/channel/UCGjhGGf-j1kMYtJZJTnNMPA/analytics/tab-overview/period-default",
+    "report_period": {"start":"2026-09-27","end":"2026-10-24","label":"past 28 days","timezone":null},
+    "period_metrics": {"views":2744,"likes":37,"comments_added":2,"shares":0},
+    "geography": {
+      "source_url":"https://studio.youtube.com/channel/UCGjhGGf-j1kMYtJZJTnNMPA/analytics/tab-build_audience/period-default",
+      "metric":"views, not nationality or unique viewers",
+      "report_total_views":2743,
+      "coverage":"Only displayed countries recorded, not a complete distribution",
+      "countries":[{"country":"KR","views":1593,"displayed_percent":58.1},{"country":"ID","views":118,"displayed_percent":4.3},{"country":"BR","views":49,"displayed_percent":1.8},{"country":"JP","views":44,"displayed_percent":1.6},{"country":"PH","views":24,"displayed_percent":0.9}],
+      "subnational_regions":null,
+      "note":"Geography report total differs from overview by one view; preserved without adjustment"
+    }
+  },
+  "limits":["Periods differ across platforms and are not a common weekly reporting period.","No comparable previous-week baseline exists.","Public cumulative video views remain in ../sns-public-snapshot.json and must not be compared with these period metrics.","API OAuth authorization was not configured; existing logged-in browser access does not establish API authorization.","Null values represent 미확보, never zero."]
+}
