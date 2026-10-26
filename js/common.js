@@ -1,6 +1,23 @@
 const menuButton=document.querySelector('.menu-toggle');const menu=document.querySelector('.main-nav');
 if(menuButton&&menu){menuButton.addEventListener('click',()=>{const isOpen=menu.classList.toggle('open');menuButton.setAttribute('aria-expanded',String(isOpen));document.body.classList.toggle('menu-open',isOpen)});menu.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{menu.classList.remove('open');menuButton.setAttribute('aria-expanded','false');document.body.classList.remove('menu-open')}));}
 
+// The same local scripts work on every portfolio page, including file:// previews.
+(function loadRaonGuide() {
+  const base = new URL('.', document.currentScript.src);
+  const stylesheet = document.createElement('link');
+  stylesheet.rel = 'stylesheet'; stylesheet.href = new URL('../css/chatbot.css', base).href;
+  document.head.appendChild(stylesheet);
+  ['chatbot-data.js', 'chatbot-core.js', 'inquiry.js', 'chatbot.js'].reduce((loaded, name) => loaded.then(() => new Promise((resolve, reject) => {
+    const script = document.createElement('script');
+    script.src = new URL(name, base).href; script.onload = resolve; script.onerror = reject;
+    document.body.appendChild(script);
+  })), Promise.resolve()).catch(() => {
+    const help = document.createElement('a');
+    help.className = 'raon-launcher'; help.href = 'contact.html'; help.textContent = '문의 페이지 열기 ↗';
+    help.style.cssText = 'position:fixed;right:20px;bottom:20px;z-index:80'; document.body.appendChild(help);
+  });
+})();
+
 const mascot = document.createElement('aside');
 mascot.className = 'busan-mascot';
 mascot.setAttribute('role', 'img');

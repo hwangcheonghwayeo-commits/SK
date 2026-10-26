@@ -1,0 +1,10 @@
+{
+  "enabled": false,
+  "supabaseUrl": "",
+  "publishableKey": "",
+  "table": "",
+  "privacyVersion": "",
+  "retention": "",
+  "privacyContact": "",
+  "categories": {"content":"콘텐츠 제작", "web":"웹페이지 제작", "collaboration":"협업 제안", "error":"사이트·데이터 오류", "other":"기타 문의"}
+}
