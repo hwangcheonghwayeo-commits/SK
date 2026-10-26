@@ -13,14 +13,14 @@ document.body.appendChild(mascot);
 const mascotImage = mascot.querySelector('.mascot-character');
 const mascotBubble = mascot.querySelector('.mascot-bubble');
 const mascotStates = [
-  { action: 'dance', image: 'busan-otter-dance.png', line: '부산 여행 중!', label: '웹페이지 아래에서 춤추는 귀여운 부산 수달' },
-  { action: 'market', image: 'busan-otter-market.png', line: '구포시장 가고 싶다.', label: '구포시장으로 걸어가며 신나게 가리키는 부산 수달' },
-  { action: 'food', image: 'busan-otter-market-food.png', line: '시장에 가면 국수도 있고~꿀떡도 있고...', label: '시장 국수와 꿀떡을 맛있게 먹는 부산 수달' },
-  { action: 'haeundae', image: 'busan-otter-haeundae.png', line: '바다 보러 해운대 갈래?', label: '튜브를 끼고 해운대 바다를 바라보는 부산 수달' },
-  { action: 'dalmaji', image: 'busan-otter-dalmaji.png', line: '달맞이길이 예쁘다는데..', label: '달을 바라보며 달맞이길을 떠올리는 부산 수달' },
-  { action: 'coffee', image: 'busan-otter-coffee.png', line: '커피 마시러 갈까?', label: '따뜻한 커피를 마시는 부산 수달' },
-  { action: 'reading', image: 'busan-otter-reading.png', line: 'F1963에 가서 책 같이 읽을까?', label: '책을 펼쳐 읽고 있는 부산 수달' },
-  { action: 'art', image: 'busan-otter-art.png', line: '예술 문화 즐기려면 F1963가야지!', label: '붓과 팔레트를 들고 예술을 즐기는 부산 수달' }
+  { action: 'dance', image: 'busan-otter-haro.png', line: '부산 여행 중!', label: '웹페이지 아래에서 춤추는 귀여운 부산 수달' },
+  { action: 'market', image: 'busan-otter-haro-point.png', line: '구포시장 가고 싶다.', label: '구포시장을 가리키며 소개하는 귀여운 부산 수달' },
+  { action: 'food', image: 'busan-otter-haro-heart.png', line: '시장에 가면 국수도 있고~꿀떡도 있고...', label: '두 손으로 하트를 만들며 시장 음식을 좋아하는 귀여운 부산 수달' },
+  { action: 'haeundae', image: 'busan-otter-haro-wink.png', line: '바다 보러 해운대 갈래?', label: '한쪽 눈을 윙크하며 해운대 여행을 제안하는 귀여운 부산 수달' },
+  { action: 'dalmaji', image: 'busan-otter-haro-dreamy.png', line: '달맞이길이 예쁘다는데..', label: '두 손을 모으고 달맞이길을 기대하는 귀여운 부산 수달' },
+  { action: 'coffee', image: 'busan-otter-haro-thinking.png', line: '커피 마시러 갈까?', label: '한 손으로 볼을 짚고 커피 여행을 생각하는 귀여운 부산 수달' },
+  { action: 'reading', image: 'busan-otter-haro-dreamy.png', line: 'F1963에 가서 책 같이 읽을까?', label: '두 손을 모으고 F1963 방문을 기대하는 귀여운 부산 수달' },
+  { action: 'art', image: 'busan-otter-haro-point.png', line: '예술 문화 즐기려면 F1963가야지!', label: '부산 예술 문화를 가리키며 소개하는 귀여운 부산 수달' }
 ];
 
 mascotStates.forEach(state => {

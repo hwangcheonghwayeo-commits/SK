@@ -1,0 +1,31 @@
+{
+  "collected_on": "2026-10-26",
+  "timezone": "Asia/Seoul",
+  "method": "Direct HTTP reads of public profile, channel and video HTML metadata; not an authenticated analytics API.",
+  "instagram": {
+    "url": "https://www.instagram.com/miyumio.day/",
+    "username": "miyumio.day",
+    "followers": 13,
+    "following": 11,
+    "posts": 13,
+    "bio": "🦦 부산 직장인 미유 × 아기 수달 미오\n🌷 평범한 하루에 찾아온 작은 친구\n🌊 함께 걷고, 먹고, 발견하는 부산\n♡ 너를 만나, 매일이 특별해졌어",
+    "source_fields": ["og:description", "meta[name=description]"],
+    "post_level_metrics": null
+  },
+  "youtube": {
+    "url": "https://www.youtube.com/@%EB%AF%B8%EC%9C%A0_%EB%AF%B8%EC%98%A4",
+    "channel_id": "UCGjhGGf-j1kMYtJZJTnNMPA",
+    "subscribers": 9,
+    "video_count": 4,
+    "description": "너를 만나, 매일이 특별해졌어♡ ",
+    "source_fields": ["ytInitialData.header.pageHeaderRenderer", "ytInitialData Shorts lockups", "video page viewCount and publishDate"],
+    "videos": [
+      {"id":"EgHMXnjUQeM","title":"불닭볶음면이 이렇게 매운 거였나요...? 🔥","url":"https://www.youtube.com/shorts/EgHMXnjUQeM","views":1435,"published_at":"2026-10-22T16:03:45+09:00"},
+      {"id":"yyX5LaHqYQQ","title":"누나 없는 사이에 찍어봤는데.. 누나, 저 잘했어요?","url":"https://www.youtube.com/shorts/yyX5LaHqYQQ","views":1303,"published_at":"2026-10-21T19:41:03+09:00"},
+      {"id":"jKBkiphOPSQ","title":"명대사는 그대로인데 설렘보다 귀여움이 먼저 옴 🦦🐱","url":"https://www.youtube.com/shorts/jKBkiphOPSQ","views":172,"published_at":"2026-10-25T18:00:38+09:00"},
+      {"id":"Y2JuiQRiZ7c","title":"미오도 쇼핑은 기부니 죠아~ 🦦🛍️ | 아기 수달의 광안리 꼬까옷 쇼핑 #Shorts","url":"https://www.youtube.com/shorts/Y2JuiQRiZ7c","views":31,"published_at":"2026-10-15T11:47:06+09:00"}
+    ],
+    "derived": {"sample_views_sum":2941,"top_two_views_sum":2738,"top_two_share_percent_rounded":93.1}
+  },
+  "limits": ["Snapshot values can change.", "Instagram post captions, likes, comments and views were not obtained.", "No private reach, saves, shares, impressions, CTR, retention or subscriber attribution data was obtained.", "Videos were classified from public titles and descriptions, not audiovisual inspection.", "Different publication dates and a four-video sample prevent causal performance conclusions."]
+}

@@ -40,3 +40,11 @@
 @media(max-width:900px){.songdo-showcase{grid-template-columns:minmax(260px,.75fr) minmax(0,1.25fr);gap:30px}.hours-grid,.special-fares{grid-template-columns:1fr}.hour-card{min-height:112px}.booking-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:767px){.songdo-heading,.booking-heading{display:block}.songdo-heading>p,.booking-heading>p{margin-top:18px}.songdo-showcase{grid-template-columns:1fr}.songdo-poster{position:relative;top:auto;max-width:520px;margin:0 auto 20px;box-shadow:7px 7px 0 var(--accent)}.songdo-intro{padding-top:20px}.official-links a{flex:1;text-align:center;white-space:nowrap}.booking-panel{margin-top:50px}.booking-grid{grid-template-columns:1fr}.filter-bar{overflow-x:auto}.filter-bar button{white-space:nowrap}.content-grid{grid-template-columns:1fr;gap:55px}}
 @media(max-width:420px){.songdo-heading h2{font-size:36px}.fare-table{min-width:520px}.official-links{display:grid}.special-fares>div{padding:15px}}
+.sns-channels h2{margin-top:10px;font-size:clamp(30px,4vw,48px);letter-spacing:-.05em}
+.sns-channels-description{margin-top:16px;color:var(--muted);line-height:1.75}
+.sns-channel-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:18px;margin-top:28px}
+.sns-channel-card{display:flex;flex-direction:column;gap:22px;padding:clamp(22px,4vw,36px);border:1px solid var(--text);background:var(--main);transition:background .2s}
+.sns-channel-card strong{font-size:clamp(24px,4vw,36px);overflow-wrap:anywhere}
+.sns-channel-card>span:last-child{display:flex;justify-content:space-between;gap:16px;font-size:14px}
+.sns-channel-card:hover{background:var(--accent)}
+.sns-channel-card:focus-visible{outline:3px solid var(--text);outline-offset:4px}
