@@ -1,0 +1,14 @@
+.env*
+.git/
+.pnpm-store/
+.chatbot-preview/
+.openai/
+public/
+dist/
+package-stage/
+site-package.tar.gz
+cardnews/
+dalmaji-cardnews/
+routemate-app/
+register-busan-api-key.cmd
+scripts/register-busan-api-key.ps1

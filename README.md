@@ -23,6 +23,8 @@ SK플래닛 관광 콘텐츠 제작 과정과 결과물을 정리하는 반응�
 
 ## 실행
 
+Vercel 배포 시 환경변수는 `BUSAN_TOURISM_API_KEY`입니다. 저장소 루트에서 `npm run build`를 실행하고 `public`을 배포합니다. [Vercel 배포 안내](docs/vercel-deployment.md)를 참고하세요.
+
 별도의 빌드 과정 없이 `index.html`을 브라우저에서 열어 확인할 수 있습니다. 데이터 파일을 불러오는 기능을 추가할 경우 로컬 웹 서버 사용을 권장합니다.
 
 ## 서비스 포트폴리오

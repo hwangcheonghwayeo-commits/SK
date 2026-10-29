@@ -1,12 +1,51 @@
-(function () {
+(async function () {
   'use strict';
-  const data = window.BUSAN_TOURISM_DATA;
   const list = document.querySelector('#tourism-results');
   if (!list) return;
   const count = document.querySelector('#tourism-result-count');
   const more = document.querySelector('#tourism-more');
   const pageStatus = document.querySelector('#tourism-page-status');
   const empty = document.querySelector('#tourism-empty');
+  const directory = document.querySelector('#busan-tourism');
+  const mode = document.querySelector('#tourism-data-mode');
+  // Fetch the dataset only when the visitor approaches the directory.
+  if ('IntersectionObserver' in window) await new Promise(resolve => {
+    const observer = new IntersectionObserver(entries => {
+      if (entries.some(entry => entry.isIntersecting)) { observer.disconnect(); resolve(); }
+    }, { rootMargin: '600px' });
+    observer.observe(directory);
+  });
+  directory.setAttribute('aria-busy', 'true');
+  const valid = value => value && Array.isArray(value.items) && value.items.length > 0 && value.total === value.items.length;
+  async function getJson(url) {
+    const response = await fetch(url, { signal: AbortSignal.timeout(28000), credentials: 'same-origin' });
+    if (!response.ok) throw new Error('DATA_UNAVAILABLE');
+    const value = await response.json();
+    if (!valid(value)) throw new Error('INVALID_DATA');
+    return value;
+  }
+  let data = null;
+  const apiPath = directory.dataset.tourismApi;
+  if (apiPath && location.protocol !== 'file:') {
+    try {
+      const apiUrl = new URL(apiPath, location.href);
+      if (apiUrl.origin === location.origin) data = await getJson(apiUrl.href);
+      if (data && mode) mode.textContent = '최근 수집 데이터 · 수집일 기준으로 표시합니다.';
+    } catch { /* Fall back to the public snapshot without exposing server details. */ }
+  }
+  if (!data && location.protocol !== 'file:') {
+    try { data = await getJson(new URL('assets/data/busan-tourism.json', document.baseURI).href); } catch { /* Try the local-compatible data script. */ }
+  }
+  if (!data) {
+    if (!valid(window.BUSAN_TOURISM_DATA)) await new Promise(resolve => {
+      const script = document.createElement('script');
+      script.src = 'js/busan-tourism-data.js?v=20261029-tourism'; script.onload = resolve; script.onerror = resolve;
+      document.body.appendChild(script);
+    });
+    if (valid(window.BUSAN_TOURISM_DATA)) data = window.BUSAN_TOURISM_DATA;
+  }
+  if (mode && !mode.textContent) mode.textContent = '저장된 수집 데이터로 표시합니다. 실시간 조회가 아닙니다.';
+  directory.setAttribute('aria-busy', 'false');
   if (!data || !Array.isArray(data.items)) { count.textContent = '관광 데이터를 불러오지 못했습니다. 잠시 후 새로고침해 주세요.'; return; }
   const form = document.querySelector('#tourism-search-form');
   const query = document.querySelector('#tourism-query');

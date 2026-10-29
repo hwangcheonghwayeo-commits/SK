@@ -1,0 +1,11 @@
+{
+  "name": "tourism-content-archive",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {"node": "22.x"},
+  "scripts": {
+    "build": "node scripts/build-vercel.mjs",
+    "test": "npm run build && node --test tests/*.test.cjs tests/*.test.mjs",
+    "refresh:tourism": "node scripts/fetch-busan-tourism.mjs"
+  }
+}

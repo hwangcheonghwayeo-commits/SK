@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="관광 자원 조사 및 콘텐츠 기획 자료">
   <title>Report — Tourism Content Archive</title>
-  <link rel="stylesheet" href="css/reset.css"><link rel="stylesheet" href="css/common.css?v=20261029-ridibatang-2"><link rel="stylesheet" href="css/responsive.css"><link rel="stylesheet" href="css/pages/report.css?v=20261029-tourism"><script src="js/common.js?v=20261029-ridibatang-2" defer></script><script src="js/report.js" defer></script><script src="js/busan-tourism-data.js?v=20261029-tourism" defer></script><script src="js/busan-tourism.js?v=20261029-tourism" defer></script>
+  <link rel="stylesheet" href="css/reset.css"><link rel="stylesheet" href="css/common.css?v=20261029-ridibatang-2"><link rel="stylesheet" href="css/responsive.css"><link rel="stylesheet" href="css/pages/report.css?v=20261029-vercel"><script src="js/common.js?v=20261029-ridibatang-2" defer></script><script src="js/report.js" defer></script><script src="js/busan-tourism.js?v=20261029-vercel" defer></script>
 </head>
 <body>
   <header class="site-header"><a class="logo" href="index.html" aria-label="홈으로 이동">TOURISM<br>ARCHIVE</a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-navigation"><span></span><span></span><span></span><span class="sr-only">메뉴 열기</span></button><nav id="main-navigation" class="main-nav" aria-label="주요 메뉴"><a class="active" aria-current="page" href="report.html">REPORT</a><a href="service.html">SERVICE</a><a href="contents.html">CONTENTS</a><a href="sns.html">SNS</a><a href="brand.html">BRAND</a><a href="final.html">FINAL PROJECT</a>
@@ -55,6 +55,7 @@
         <div class="tourism-heading"><div><p class="eyebrow">BUSAN OPEN DATA · PLACE DIRECTORY</p><h2 id="tourism-directory-title">부산의 다음 여행지,<br>한눈에 살펴보기</h2></div><p>기획의 영감이 될 부산 곳곳의 명소를 찾아보세요.<br>부산광역시 공공 관광 데이터를 바탕으로 정리한 장소 목록입니다.</p></div>
         <div class="tourism-summary" aria-label="관광 데이터 수집 현황"><div><span>PLACES</span><strong id="tourism-total">—</strong><small>등록 명소</small></div><div><span>DISTRICTS</span><strong id="tourism-district-total">—</strong><small>구·군</small></div><div><span>LAST COLLECTED</span><strong id="tourism-date">확인 중</strong><small>공개 데이터 수집일 · KST</small></div></div>
         <form id="tourism-search-form" class="tourism-toolbar" role="search" aria-label="부산 관광명소 검색"><div class="tourism-search"><label for="tourism-query">장소 검색</label><input id="tourism-query" type="search" maxlength="100" placeholder="명소 이름, 주소, 궁금한 키워드" autocomplete="off"></div><div><label for="tourism-district">지역 선택</label><select id="tourism-district"><option value="">부산 전체</option></select></div><button type="reset" class="tourism-reset">검색 초기화 ↺</button></form>
+        <p id="tourism-data-mode" class="tourism-data-mode" role="status"></p>
         <div class="tourism-result-head"><p id="tourism-result-count" role="status" aria-live="polite">관광 데이터를 준비하고 있습니다.</p><span>명소 이름순 · 상세 정보 펼쳐보기</span></div>
         <ul id="tourism-results" class="tourism-results" aria-label="부산 관광명소 목록"></ul>
         <p id="tourism-empty" class="tourism-empty" hidden>검색 결과가 없습니다. 검색어를 줄이거나 다른 지역을 선택해 주세요.</p>

@@ -3,3 +3,7 @@
 # Local API credentials and any temporary copies must never be published.
 .env*
 !.env.example
+
+# Vercel build output and local deployment state.
+public/
+.vercel/
