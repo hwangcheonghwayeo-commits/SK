@@ -5,7 +5,7 @@ if(menuButton&&menu){menuButton.addEventListener('click',()=>{const isOpen=menu.
 (function loadRaonGuide() {
   const base = new URL('.', document.currentScript.src);
   const stylesheet = document.createElement('link');
-  stylesheet.rel = 'stylesheet'; stylesheet.href = new URL('../css/chatbot.css', base).href;
+  stylesheet.rel = 'stylesheet'; stylesheet.href = new URL('../css/chatbot.css?v=20261029-ridibatang-2', base).href;
   document.head.appendChild(stylesheet);
   ['chatbot-data.js', 'chatbot-core.js', 'inquiry.js', 'chatbot.js'].reduce((loaded, name) => loaded.then(() => new Promise((resolve, reject) => {
     const script = document.createElement('script');
