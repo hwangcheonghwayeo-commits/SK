@@ -1,1 +1,5 @@
 .chatbot-preview/
+
+# Local API credentials and any temporary copies must never be published.
+.env*
+!.env.example
