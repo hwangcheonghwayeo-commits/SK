@@ -32,4 +32,5 @@
 .next-action-grid h3{margin:18px 0 14px;font-size:22px;letter-spacing:-.04em}
 .data-note{line-height:1.85}.data-note>strong{flex-shrink:0}.data-note a{text-decoration:underline;text-underline-offset:3px}
 .channel-analysis a:focus-visible{outline:3px solid var(--text);outline-offset:4px}
+.weekly-table tbody th{width:auto;min-width:210px}.weekly-table td{white-space:normal;min-width:105px}.weekly-regions{margin-top:22px}.weekly-regions summary{cursor:pointer;padding:18px 0;font-size:16px}.weekly-regions summary:focus-visible{outline:3px solid var(--text);outline-offset:4px}
 @media(max-width:760px){.channel-review-grid,.next-action-grid{grid-template-columns:1fr}.dashboard-head{align-items:start;gap:18px;flex-direction:column}.channel-analysis{padding-top:24px}.analysis-table th,.analysis-table td{padding:16px}.insight-callout{padding:22px}}

@@ -1,0 +1,538 @@
+{
+  "schema_version": 2,
+  "week_of": "2026-11-02",
+  "collected_window_kst": [
+    "2026-11-02T08:59:00+09:00",
+    "2026-11-02T09:12:00+09:00"
+  ],
+  "method": "Aside authenticated owner dashboard UI; not official API",
+  "official_api_connected": false,
+  "requested_week": {
+    "start": "2026-10-26",
+    "end": "2026-11-01",
+    "timezone": "Asia/Seoul",
+    "activity_metrics": null,
+    "missing_reason": "No official API weekly activity report collected. UI periods below have their own date boundaries."
+  },
+  "definitions": {
+    "null": "미확보; never zero",
+    "views": "Displayed view count, not unique viewers",
+    "youtube_comments": "Additional comments during the selected analytics period, not current remaining comments",
+    "geography": "Geography of views, not nationality",
+    "delta": "Difference between comparable observations, not weekly activity",
+    "youtube_likes": "Likes added minus likes removed, during selected period",
+    "youtube_shares": "Uses of YouTube share button"
+  },
+  "instagram": {
+    "account": "miyumio.day",
+    "current_followers": 23,
+    "current_posts": 15,
+    "source_url": "https://www.instagram.com/accounts/insights/?timeframe=7",
+    "report_period": {
+      "label": "recent 7 days excluding today; exact dates unavailable",
+      "start": null,
+      "end": null,
+      "timezone": null,
+      "timezone_label": "Pacific Standard Time per dashboard help; today excluded"
+    },
+    "period_metrics": {
+      "views": 7588,
+      "accounts_viewed": 6279,
+      "interactions": 566,
+      "likes": null,
+      "comments": null,
+      "shares": null
+    },
+    "cumulative_metrics": {
+      "views": null,
+      "likes": null,
+      "comments": null,
+      "shares": null
+    },
+    "missing_reason": "Account-wide cumulative totals, likes/comments/shares breakdown, and geography were not displayed in the inspected web dashboard. Only recent 7/14/30/90-day selectors are available.",
+    "country_distribution": null,
+    "subnational_regions": null,
+    "posts": [
+      {
+        "label": "길 가다가 그루밍 중인 고양이를 만났다",
+        "url": "https://www.instagram.com/miyumio.day/reel/DfEop0gFgof/",
+        "insights_url": "https://www.instagram.com/insights/media/4018515563253205535/",
+        "collected_at_kst": "2026-11-02 09:03:34.069 KST",
+        "scope": "Individual insight current display; no date selector or explicit lifetime label",
+        "views": 1334,
+        "likes": 68,
+        "comments": 0,
+        "shares": 4
+      },
+      {
+        "label": "언니, 나 춤 좀 추지?",
+        "url": "https://www.instagram.com/miyumio.day/reel/De_cqxzCMtM/",
+        "insights_url": "https://www.instagram.com/insights/media/4017055477627669324/",
+        "collected_at_kst": "2026-11-02 09:04:04.735 KST",
+        "scope": "Individual insight current display; no date selector or explicit lifetime label",
+        "views": 3670,
+        "likes": 150,
+        "comments": 1,
+        "shares": 117
+      },
+      {
+        "label": "명대사는 그대로인데 설렘보다 귀여움이 먼저 옴",
+        "url": "https://www.instagram.com/miyumio.day/reel/De6ViVECT_v/",
+        "insights_url": "https://www.instagram.com/insights/media/4015616735809454063/",
+        "collected_at_kst": "2026-11-02 09:04:07.771 KST",
+        "scope": "Individual insight current display; no date selector or explicit lifetime label",
+        "views": 2526,
+        "likes": 40,
+        "comments": 0,
+        "shares": 9
+      },
+      {
+        "label": "밖은 비 오고, 방 안은 따뜻하고",
+        "url": "https://www.instagram.com/miyumio.day/p/De3wrsBjBY0/",
+        "insights_url": "https://www.instagram.com/insights/media/4014891701264717364/",
+        "collected_at_kst": "2026-11-02 09:04:10.347 KST",
+        "scope": "Individual insight current display; no date selector or explicit lifetime label",
+        "views": 51,
+        "likes": 6,
+        "comments": 0,
+        "shares": 0
+      },
+      {
+        "label": "언니들, 부산 또 비 오는데 비 맞지 마",
+        "url": "https://www.instagram.com/miyumio.day/p/De1L5oCjN_4/",
+        "insights_url": "https://www.instagram.com/insights/media/4014166981384921080/",
+        "collected_at_kst": "2026-11-02 09:04:19.536 KST",
+        "scope": "Individual insight current display; no date selector or explicit lifetime label",
+        "views": 43,
+        "likes": 7,
+        "comments": 0,
+        "shares": 0
+      },
+      {
+        "label": "불닭볶음면 이렇게 매운거 알고 드시나요?",
+        "url": "https://www.instagram.com/miyumio.day/reel/DeyaetAnOhv/",
+        "insights_url": "https://www.instagram.com/insights/media/4013386677062789231/",
+        "collected_at_kst": "2026-11-02 09:04:25.776 KST",
+        "scope": "Individual insight current display; no date selector or explicit lifetime label",
+        "views": 1748,
+        "likes": 22,
+        "comments": 1,
+        "shares": 6
+      },
+      {
+        "label": "잘 나온 것만 올리라길래 한참 골랐어요",
+        "url": "https://www.instagram.com/miyumio.day/p/DewW7mHjDwN/",
+        "insights_url": "https://www.instagram.com/insights/media/4012808120388303885/",
+        "collected_at_kst": "2026-11-02 09:04:30.017 KST",
+        "scope": "Individual insight current display; no date selector or explicit lifetime label",
+        "views": 54,
+        "likes": 10,
+        "comments": 0,
+        "shares": 0
+      },
+      {
+        "label": "누나 없는 사이에 찍어봤는데",
+        "url": "https://www.instagram.com/miyumio.day/reel/DewEYBSAoWV/",
+        "insights_url": "https://www.instagram.com/insights/media/4012726510816494997/",
+        "collected_at_kst": "2026-11-02 09:04:35.598 KST",
+        "scope": "Individual insight current display; no date selector or explicit lifetime label",
+        "views": 183,
+        "likes": 9,
+        "comments": 0,
+        "shares": 0
+      },
+      {
+        "label": "언니, 이불이 너무 포근해",
+        "url": "https://www.instagram.com/miyumio.day/p/Deu6MuxAfg3/",
+        "insights_url": "https://www.instagram.com/insights/media/4012400279579392055/",
+        "collected_at_kst": "2026-11-02 09:04:39.757 KST",
+        "scope": "Individual insight current display; no date selector or explicit lifetime label",
+        "views": 54,
+        "likes": 9,
+        "comments": 1,
+        "shares": 0
+      },
+      {
+        "label": "부산 칭구들 들었어?!",
+        "url": "https://www.instagram.com/miyumio.day/reel/DesuXnwoSOO/",
+        "insights_url": "https://www.instagram.com/insights/media/4011785301459542926/",
+        "collected_at_kst": "2026-11-02 09:04:52.948 KST",
+        "scope": "Individual insight current display; no date selector or explicit lifetime label",
+        "views": 186,
+        "likes": 6,
+        "comments": 0,
+        "shares": 0
+      },
+      {
+        "label": "분명 추워서 조금만 더 자려고 했는데",
+        "url": "https://www.instagram.com/miyumio.day/p/DesmlhJCejz/",
+        "insights_url": "https://www.instagram.com/insights/media/4011751072053455091/",
+        "collected_at_kst": "2026-11-02 09:04:58.703 KST",
+        "scope": "Individual insight current display; no date selector or explicit lifetime label",
+        "views": 64,
+        "likes": 5,
+        "comments": 0,
+        "shares": 0
+      },
+      {
+        "label": "도깨비 분장 셀카",
+        "url": "https://www.instagram.com/miyumio.day/p/DeqlDtOmI8f/",
+        "insights_url": "https://www.instagram.com/insights/media/4011181400569450271/",
+        "collected_at_kst": "2026-11-02 09:05:04.676 KST",
+        "scope": "Individual insight current display; no date selector or explicit lifetime label",
+        "views": 48,
+        "likes": 9,
+        "comments": 1,
+        "shares": 0
+      },
+      {
+        "label": "아우터 하나로도 충분하ZIP",
+        "url": "https://www.instagram.com/miyumio.day/p/DeifG3ImEfd/",
+        "insights_url": "https://www.instagram.com/insights/media/4008903429271865309/",
+        "collected_at_kst": "2026-11-02 09:05:10.068 KST",
+        "scope": "Individual insight current display; no date selector or explicit lifetime label",
+        "views": 132,
+        "likes": 10,
+        "comments": 0,
+        "shares": 1
+      },
+      {
+        "label": "침대에서 패션쇼를 꿈꾸는 미오",
+        "url": "https://www.instagram.com/miyumio.day/p/DegUZb8mJDy/",
+        "insights_url": "https://www.instagram.com/insights/media/4008293377284542706/",
+        "collected_at_kst": "2026-11-02 09:05:15.982 KST",
+        "scope": "Individual insight current display; no date selector or explicit lifetime label",
+        "views": 74,
+        "likes": 9,
+        "comments": 0,
+        "shares": 4
+      },
+      {
+        "label": "미오도 쇼핑은 기부니 죠아",
+        "url": "https://www.instagram.com/miyumio.day/reel/Def577TobBy/",
+        "insights_url": "https://www.instagram.com/insights/media/4008177000163422322/",
+        "collected_at_kst": "2026-11-02 09:05:21.205 KST",
+        "scope": "Individual insight current display; no date selector or explicit lifetime label",
+        "views": 184,
+        "likes": 9,
+        "comments": 0,
+        "shares": 0
+      }
+    ],
+    "post_coverage": "15 inspected posts; individual current display, lifetime scope not explicitly stated. Do not add to account-period totals.",
+    "previous_week_delta": {
+      "followers": 9,
+      "posts": 2,
+      "views": null,
+      "likes": null,
+      "comments": null,
+      "shares": null
+    },
+    "delta_unavailable_reason": "Exact rolling period boundaries unavailable; prior week only one individual post inspected. Individual insights do not explicitly confirm lifetime scope.",
+    "additional_period_observation": {
+      "source_url": "https://www.instagram.com/accounts/insights/?timeframe=90",
+      "collected_at_kst": "2026-11-02T09:05:44+09:00",
+      "period": {
+        "label": "recent 90 days; longest available selector; today excluded",
+        "start": null,
+        "end": null,
+        "timezone_label": "Pacific Standard Time, as stated by UI"
+      },
+      "metrics": {
+        "views": null,
+        "views_displayed": "1만",
+        "interactions": 703,
+        "accounts_viewed": 7957,
+        "accounts_engaged": 367
+      },
+      "note": "Abbreviated views retained verbatim; not converted into an exact 10000. Not account lifetime."
+    }
+  },
+  "youtube": {
+    "channel_id": "UCGjhGGf-j1kMYtJZJTnNMPA",
+    "current_subscribers": 12,
+    "current_video_count": 6,
+    "source_url": "https://studio.youtube.com/channel/UCGjhGGf-j1kMYtJZJTnNMPA/analytics/tab-overview/period-lifetime",
+    "report_period": {
+      "label": "전체 (lifetime selection)",
+      "start": "2026-10-12",
+      "end": "2026-10-31",
+      "timezone": null
+    },
+    "cumulative_metrics": {
+      "views": 5924,
+      "likes": 73,
+      "comments_added": 3,
+      "shares": 1
+    },
+    "posts": [
+      {
+        "id": "G84fVXiffi8",
+        "label": "길 가다가 그루밍 중인 고양이를 만났다 🐈",
+        "url": "https://www.youtube.com/shorts/G84fVXiffi8",
+        "published": "2026-10-29",
+        "views": 1789,
+        "likes": 24,
+        "comments_added": 0,
+        "shares": 0
+      },
+      {
+        "id": "EgHMXnjUQeM",
+        "label": "불닭볶음면이 이렇게 매운 거였나요...? 🔥",
+        "url": "https://www.youtube.com/shorts/EgHMXnjUQeM",
+        "published": "2026-10-22",
+        "views": 1449,
+        "likes": 18,
+        "comments_added": 2,
+        "shares": 0
+      },
+      {
+        "id": "yyX5LaHqYQQ",
+        "label": "누나 없는 사이에 찍어봤는데.. 누나, 저 잘했어요?",
+        "url": "https://www.youtube.com/shorts/yyX5LaHqYQQ",
+        "published": "2026-10-21",
+        "views": 1310,
+        "likes": 15,
+        "comments_added": 0,
+        "shares": 0
+      },
+      {
+        "id": "v5U-obwceCo",
+        "label": "언니, 나 춤 좀 추지? 🦦 | Caramelldansen",
+        "url": "https://www.youtube.com/shorts/v5U-obwceCo",
+        "published": "2026-10-27",
+        "views": 1121,
+        "likes": 8,
+        "comments_added": 1,
+        "shares": 1
+      },
+      {
+        "id": "jKBkiphOPSQ",
+        "label": "명대사는 그대로인데 설렘보다 귀여움이 먼저 옴 🦦🐱",
+        "url": "https://www.youtube.com/shorts/jKBkiphOPSQ",
+        "published": "2026-10-25",
+        "views": 220,
+        "likes": 4,
+        "comments_added": 0,
+        "shares": 0
+      },
+      {
+        "id": "Y2JuiQRiZ7c",
+        "label": "미오도 쇼핑은 기부니 죠아~ 🦦🛍️ | 아기 수달의 광안리 꼬까옷 쇼핑 #Shorts",
+        "url": "https://www.youtube.com/shorts/Y2JuiQRiZ7c",
+        "published": "2026-10-15",
+        "views": 34,
+        "likes": 4,
+        "comments_added": 0,
+        "shares": 0
+      }
+    ],
+    "geography": {
+      "source_url": "https://studio.youtube.com/channel/UCGjhGGf-j1kMYtJZJTnNMPA/analytics/tab-build_audience/period-lifetime/explore?entity_type=CHANNEL&entity_id=UCGjhGGf-j1kMYtJZJTnNMPA&time_period=lifetime&explore_type=TABLE_AND_CHART&metric=EXTERNAL_VIEWS&granularity=DAY&t_metrics=EXTERNAL_VIEWS&t_metrics=AVERAGE_WATCH_TIME&t_metrics=EXTERNAL_WATCH_TIME&dimension=COUNTRY&o_column=EXTERNAL_VIEWS&o_direction=ANALYTICS_ORDER_DIRECTION_DESC",
+      "city_source_url": "https://studio.youtube.com/channel/UCGjhGGf-j1kMYtJZJTnNMPA/analytics/tab-build_audience/period-lifetime/explore?entity_type=CHANNEL&entity_id=UCGjhGGf-j1kMYtJZJTnNMPA&time_period=lifetime&explore_type=TABLE_AND_CHART&metric=EXTERNAL_VIEWS&granularity=DAY&t_metrics=EXTERNAL_VIEWS&t_metrics=EXTERNAL_WATCH_TIME&t_metrics=AVERAGE_WATCH_TIME&dimension=CITY&o_column=EXTERNAL_VIEWS&o_direction=ANALYTICS_ORDER_DIRECTION_DESC",
+      "metric": "views, not unique viewers or nationality",
+      "report_total_views": 5923,
+      "period": {
+        "start": "2026-10-12",
+        "end": "2026-10-31",
+        "timezone": null
+      },
+      "coverage": "Displayed rows only; incomplete distribution, missing rows are not zero",
+      "countries": [
+        {
+          "country": "대한민국",
+          "views": 2744,
+          "displayed_percent": 46.3
+        },
+        {
+          "country": "인도네시아",
+          "views": 398,
+          "displayed_percent": 6.7
+        },
+        {
+          "country": "일본",
+          "views": 301,
+          "displayed_percent": 5.1
+        },
+        {
+          "country": "베트남",
+          "views": 288,
+          "displayed_percent": 4.9
+        },
+        {
+          "country": "브라질",
+          "views": 102,
+          "displayed_percent": 1.7
+        },
+        {
+          "country": "필리핀",
+          "views": 67,
+          "displayed_percent": 1.1
+        },
+        {
+          "country": "태국",
+          "views": 34,
+          "displayed_percent": 0.6
+        },
+        {
+          "country": "말레이시아",
+          "views": 23,
+          "displayed_percent": 0.4
+        },
+        {
+          "country": "튀르키예",
+          "views": 22,
+          "displayed_percent": 0.4
+        },
+        {
+          "country": "부탄",
+          "views": 19,
+          "displayed_percent": 0.3
+        },
+        {
+          "country": "카자흐스탄",
+          "views": 18,
+          "displayed_percent": 0.3
+        },
+        {
+          "country": "폴란드",
+          "views": 0,
+          "displayed_percent": 0
+        }
+      ],
+      "subnational_regions": [
+        {
+          "region": "대한민국 서울특별시",
+          "views": 564,
+          "displayed_percent": 9.5
+        },
+        {
+          "region": "대한민국 부산광역시",
+          "views": 176,
+          "displayed_percent": 3
+        },
+        {
+          "region": "대한민국 인천광역시",
+          "views": 84,
+          "displayed_percent": 1.4
+        },
+        {
+          "region": "베트남 Ho Chi Minh, 호찌민시",
+          "views": 37,
+          "displayed_percent": 0.6
+        },
+        {
+          "region": "대한민국 대전광역시",
+          "views": 30,
+          "displayed_percent": 0.5
+        },
+        {
+          "region": "베트남 Ha Noi, 하노이",
+          "views": 27,
+          "displayed_percent": 0.5
+        },
+        {
+          "region": "대한민국 충청남도 천안시",
+          "views": 25,
+          "displayed_percent": 0.4
+        },
+        {
+          "region": "대한민국 경기도 화성시",
+          "views": 21,
+          "displayed_percent": 0.4
+        },
+        {
+          "region": "부탄 푼촐링",
+          "views": 19,
+          "displayed_percent": 0.3
+        },
+        {
+          "region": "일본 오사카부 오사카시",
+          "views": 0,
+          "displayed_percent": 0
+        },
+        {
+          "region": "대한민국 경기도 성남시",
+          "views": 0,
+          "displayed_percent": 0
+        },
+        {
+          "region": "대한민국 충청북도 청주시",
+          "views": 0,
+          "displayed_percent": 0
+        }
+      ]
+    },
+    "sources": {
+      "overview": "https://studio.youtube.com/channel/UCGjhGGf-j1kMYtJZJTnNMPA/analytics/tab-overview/period-lifetime",
+      "metrics": "https://studio.youtube.com/channel/UCGjhGGf-j1kMYtJZJTnNMPA/analytics/tab-overview/period-lifetime/explore?entity_type=CHANNEL&entity_id=UCGjhGGf-j1kMYtJZJTnNMPA&time_period=lifetime&explore_type=TABLE_AND_CHART&metric=RATINGS_LIKES&granularity=DAY&t_metrics=RATINGS_LIKES&t_metrics=SHARINGS&t_metrics=COMMENTS&t_metrics=EXTERNAL_VIEWS&t_metrics=EXTERNAL_WATCH_TIME&t_metrics=SUBSCRIBERS_NET_CHANGE&t_metrics=TOTAL_ESTIMATED_EARNINGS&t_metrics=VIDEO_THUMBNAIL_IMPRESSIONS&t_metrics=VIDEO_THUMBNAIL_IMPRESSIONS_VTR&dimension=VIDEO&o_column=RATINGS_LIKES&o_direction=ANALYTICS_ORDER_DIRECTION_DESC",
+      "countries": "https://studio.youtube.com/channel/UCGjhGGf-j1kMYtJZJTnNMPA/analytics/tab-build_audience/period-lifetime/explore?entity_type=CHANNEL&entity_id=UCGjhGGf-j1kMYtJZJTnNMPA&time_period=lifetime&explore_type=TABLE_AND_CHART&metric=EXTERNAL_VIEWS&granularity=DAY&t_metrics=EXTERNAL_VIEWS&t_metrics=AVERAGE_WATCH_TIME&t_metrics=EXTERNAL_WATCH_TIME&dimension=COUNTRY&o_column=EXTERNAL_VIEWS&o_direction=ANALYTICS_ORDER_DIRECTION_DESC",
+      "cities": "https://studio.youtube.com/channel/UCGjhGGf-j1kMYtJZJTnNMPA/analytics/tab-build_audience/period-lifetime/explore?entity_type=CHANNEL&entity_id=UCGjhGGf-j1kMYtJZJTnNMPA&time_period=lifetime&explore_type=TABLE_AND_CHART&metric=EXTERNAL_VIEWS&granularity=DAY&t_metrics=EXTERNAL_VIEWS&t_metrics=EXTERNAL_WATCH_TIME&t_metrics=AVERAGE_WATCH_TIME&dimension=CITY&o_column=EXTERNAL_VIEWS&o_direction=ANALYTICS_ORDER_DIRECTION_DESC",
+      "audience": "https://studio.youtube.com/channel/UCGjhGGf-j1kMYtJZJTnNMPA/analytics/tab-build_audience/period-lifetime",
+      "content": "https://studio.youtube.com/channel/UCGjhGGf-j1kMYtJZJTnNMPA/videos/short?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D"
+    },
+    "previous_week_delta": {
+      "subscribers": 3,
+      "videos": 2,
+      "views": null,
+      "likes": null,
+      "comments_added": null,
+      "shares": null
+    },
+    "delta_unavailable_reason": "Previous owner snapshot was past-28-days, not lifetime; original public snapshot covered four videos at another timestamp.",
+    "notes": [
+      "콘텐츠 목록 Shorts 6개 중 1~6, 모두 공개. 동영상 탭 콘텐츠 없음, 라이브 탭 실시간 스트림 없음 확인.",
+      "영상 6행 조회수 합계5923, 채널 합계5924, 국가/도시 보고서 합계5923. 원인 화면에 설명 없음. 임의 정정 금지.",
+      "국가 표시12행의 조회수 합계4016, 모집단5923보다1907 적음. 표에 없는 부분을 기타/미상이라고 단정할 근거 없음.",
+      "개인정보 보호 수치 임계값이나 누락 원인은 수집한 국가/도시 화면에 표시되지 않음. 없는 국가/도시를 0으로 해석하면 안 됨.",
+      "콘텐츠 목록의 현재 조회수/댓글수는 기간 필터 분석과 다름. 이 보고서 수치는 고급모드 전체 기간 기준이며 추가된 댓글 수 지표이지 현재 댓글수 아님."
+    ],
+    "community_posts": [
+      {
+        "id": "UgkxMlBRBuYigp87-zr2xliBFvscdZYu3ChE",
+        "label": "아우터 하나로도 충분하ZIP / 언니, 옷 그만 사!!!",
+        "url": "https://www.youtube.com/post/UgkxMlBRBuYigp87-zr2xliBFvscdZYu3ChE",
+        "source_url": "https://studio.youtube.com/post/UgkxMlBRBuYigp87-zr2xliBFvscdZYu3ChE/edit",
+        "published": "2026-10-16",
+        "collected_window_kst": [
+          "2026-11-02T09:08:32+09:00",
+          "2026-11-02T09:08:55+09:00"
+        ],
+        "scope": "Current display; no period selector. Excluded from video totals.",
+        "views": null,
+        "likes": 0,
+        "comments": 0,
+        "shares": null,
+        "missing_reason": "Views and shares not provided in community list/details UI"
+      }
+    ],
+    "observed_kst": {
+      "lifetimeOverview": "2026-11-02 09:02",
+      "metrics": "2026-11-02 09:05:24",
+      "metricsReverified": "2026-11-02 09:07:15",
+      "countries": "2026-11-02 09:05:43",
+      "cities": "2026-11-02 09:06:02",
+      "account": "2026-11-02 09:06:21"
+    }
+  },
+  "comparable_post_changes": [
+    {
+      "platform": "instagram",
+      "url": "https://www.instagram.com/miyumio.day/reel/DeyaetAnOhv/",
+      "baseline": "2026-10-26",
+      "scope": "Same individual insight with no period selector; difference between displayed observations, not confirmed lifetime or weekly activity",
+      "views": 47,
+      "likes": 0,
+      "comments": 0,
+      "shares": 2
+    }
+  ],
+  "limits": [
+    "No exact Monday–Sunday API activity totals acquired.",
+    "YouTube lifetime analytics end on October 31; collection date is November 2.",
+    "YouTube video-row views sum to 5923, channel summary shows 5924. Both retained without adjustment.",
+    "New posts change the sample: Instagram 13→15 and YouTube 4→6. Deletions or edits cannot be ruled out by aggregate counts alone.",
+    "Instagram account recent-period metrics and individual current displays must not be summed or interchanged; individual lifetime scope is unconfirmed.",
+    "No geography inference from comment language. Missing values remain null."
+  ]
+}
