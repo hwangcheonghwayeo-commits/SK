@@ -70,8 +70,8 @@
 .channel-review--instagram::before{background:linear-gradient(90deg,#ffb43a,#ed396d,#7847c7)}
 .channel-review--youtube::before{background:#f03}
 .channel-brand{display:flex;gap:15px;align-items:center;position:relative}
-.channel-brand>.platform-mark{width:54px;height:54px}
-.channel-brand .eyebrow{font:700 10px/1.6 Arial,sans-serif;letter-spacing:.14em;color:#777}
+.channel-brand>.platform-mark{width:64px;height:64px;background:#fff;border-radius:12px}
+.channel-brand .eyebrow{font:700 20px/1.4 Arial,sans-serif;letter-spacing:-.03em;color:var(--text)}
 .channel-brand h3{font-size:clamp(23px,3vw,30px);margin:3px 0 0;letter-spacing:-.045em}
 .channel-corner{margin-left:auto;font:400 26px/1 Arial,sans-serif;color:#d6d1cd}
 .channel-format{display:inline-block;font-size:11px;color:#6d6266;margin:24px 0 14px;padding:5px 10px;border-radius:4px;background:#fff0ed}
