@@ -1,0 +1,109 @@
+{
+  "schema_version": 2,
+  "week_of": "2026-11-09",
+  "status": "collection_blocked",
+  "attempted_at_kst": "2026-11-09T14:29:00+09:00",
+  "triggered_at_kst": "2026-11-09T14:27:47.730+09:00",
+  "method": "Aside owner dashboard access attempted, followed by direct public-page verification; neither returned current metrics",
+  "official_api_connected": null,
+  "official_api_last_known": {
+    "as_of": "2026-11-02",
+    "connected": false,
+    "note": "Current connection status unverified; no new OAuth authorization attempted."
+  },
+  "requested_week": {
+    "start": "2026-11-02",
+    "end": "2026-11-08",
+    "timezone": "Asia/Seoul",
+    "activity_metrics": null,
+    "missing_reason": "Aside Browser is not running on this machine; authenticated owner dashboards could not be accessed. Direct public-page verification also failed. No current metrics verified."
+  },
+  "previous_snapshot": "2026-11-02.json",
+  "last_successful_collection": "2026-11-02",
+  "definitions": {
+    "null": "미확보, never zero",
+    "delta": "Only comparable verified observations; all current deltas unavailable",
+    "geography": "Country/region of views or specified audience, never nationality"
+  },
+  "instagram": {
+    "account": "miyumio.day",
+    "source_url": "https://www.instagram.com/miyumio.day/",
+    "owner_source_url": "https://www.instagram.com/accounts/insights/?timeframe=7",
+    "current_followers": null,
+    "current_posts": null,
+    "report_period": null,
+    "cumulative_metrics": {
+      "views": null,
+      "likes": null,
+      "comments": null,
+      "shares": null
+    },
+    "period_metrics": {
+      "views": null,
+      "likes": null,
+      "comments": null,
+      "shares": null
+    },
+    "posts": null,
+    "country_distribution": null,
+    "subnational_regions": null,
+    "previous_week_delta": {
+      "followers": null,
+      "posts": null,
+      "views": null,
+      "likes": null,
+      "comments": null,
+      "shares": null
+    },
+    "missing_reason": "Aside Browser is not running on this machine; authenticated owner dashboards could not be accessed. Direct public-page verification also failed. No current metrics verified."
+  },
+  "youtube": {
+    "channel_id": "UCGjhGGf-j1kMYtJZJTnNMPA",
+    "source_url": "https://www.youtube.com/@%EB%AF%B8%EC%9C%A0_%EB%AF%B8%EC%98%A4",
+    "owner_source_url": "https://studio.youtube.com/channel/UCGjhGGf-j1kMYtJZJTnNMPA/analytics/tab-overview/period-lifetime",
+    "current_subscribers": null,
+    "current_video_count": null,
+    "report_period": null,
+    "cumulative_metrics": {
+      "views": null,
+      "likes": null,
+      "comments_added": null,
+      "shares": null
+    },
+    "posts": null,
+    "community_posts": null,
+    "geography": null,
+    "previous_week_delta": {
+      "subscribers": null,
+      "videos": null,
+      "views": null,
+      "likes": null,
+      "comments_added": null,
+      "shares": null
+    },
+    "missing_reason": "Aside Browser is not running on this machine; authenticated owner dashboards could not be accessed. Direct public-page verification also failed. No current metrics verified."
+  },
+  "access_checks": [
+    {
+      "method": "Aside",
+      "result": "unavailable",
+      "reason": "Failed to request daemon auth challenge: fetch failed. Aside is not running on this machine."
+    },
+    {
+      "method": "direct public webpage fetch",
+      "source_urls": [
+        "https://www.instagram.com/miyumio.day/",
+        "https://www.youtube.com/@%EB%AF%B8%EC%9C%A0_%EB%AF%B8%EC%98%A4"
+      ],
+      "result": "fetch_failed",
+      "reason": "Both original public-page requests returned cache miss; no numbers used."
+    }
+  ],
+  "required_user_action": "Start Aside Browser on this machine and ensure the exact Instagram and YouTube owner accounts are logged in, then rerun collection.",
+  "limits": [
+    "No newly verified statistics are available; prior data has not been carried forward as this week’s values.",
+    "All current counts, changes, and geography remain null.",
+    "New or deleted posts cannot be determined without current access.",
+    "Existing 2026-11-02 analysis remains visible with its original date; this attempt does not refresh those statistics."
+  ]
+}
